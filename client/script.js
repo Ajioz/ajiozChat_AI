@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv);
 
     //fetch data from server
-    const response = await fetch('http://127.0.0.1:5000', {
+    const response = await fetch('https://ajiozchat.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
