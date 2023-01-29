@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #fff;
+  background: azure;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ body {
 .header p{
   color: #333;
   font-family: monospace;
-  font-size: 25px;
+  font-size: 20px;
 }
 #app {
   width: 90%;
@@ -119,10 +119,10 @@ body {
   object-fit: contain;
 }
 
-.message {
+.message{
   flex: 1;
 
-  color: #ccc7c7;
+  /* color: #ccc7c7; */
   font-size: 20px;
 
   max-width: 100%;
@@ -139,7 +139,12 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+.user{
+  color: #333;
+}
+.bot{
+  color:#fff;
+}
 /* hides scrollbar */
 .message::-webkit-scrollbar {
   display: none;
